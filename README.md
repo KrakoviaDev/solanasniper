@@ -1,4 +1,111 @@
-# multichainsniper
+<h1 align="center"> SOLANA SNIPER BOT </h1> <br>
+<p align="center">
+  <a href=""> 
+  </a>  
+</p>
+
+## Table of Contents
+
+- [Features](#features)
+- [Usage](#Usage)
+- [Setting](#Setting-)
+- [Disclaimer ](#Disclaimer)
+- [Contact ](#Contact)
+
+
+## Features
+
+A few of the things you can do:
+
+- Sniping: Execute buy transactions instantly when liquidity is added to a SPL token, ensuring you're among the first to buy in promising new tokens.
+- Take Profit: Automatically sell tokens at a predefined profit percentage, securing gains.
+- Buy/Sell x Times: Execute repeated buy orders to average down or scale into positions.
+- Sell Limit Order: Set your tokens to sell automatically at a predetermined price, locking in profits.
+- User friendly interface - hands-on interface
+- **Making the first to trade in new tokens.**
+<img width="910" alt="2" src="https://github.com/user-attachments/assets/a85bd1f2-c152-42a3-8b27-c3bb31cb59e2">
+
+
+## Installation
+
+- Download Python ( Recommend the latest version )  [Python 3.13.0](https://www.python.org/downloads/)
+-  ***VERY IMPORTANT***: When installing Python also install **"Add python.exe to path"** and ***"Use admin privileges when installing py.exe:*** => Tick
+
+## Usage
+
+
+![GIF](https://github.com/Xianpwr/gif/raw/main/as.gif)
+
+- Update `pip` Run the following command to update pip to the latest version
+
+```python
+python -m pip install --upgrade pip
+```
+- Clone or download the project
+
+```git 
+git clone https://github.com/Xianpwr/SOLANA_SNIPER_BOT.git
+```
+
+Option 2: Download the project directly
+
+Go to the project's GitHub page, click the "Code" button and select "Download ZIP". Unzip the downloaded ZIP file to get the project folder.
+
+- Navigate to the project folder
+
+Open a terminal and navigate to the project folder
+
+```python
+cd SOLANA_SNIPER_BOT
+```
+
+- Install libraries
+
+Run the following command to install the required libraries for the project:
+
+```python
+pip install -r requirements.txt
+```
+
+- Run the project
+
+Run the following command to start the project:
+
+
+
+```python
+python main.py
+```
+
+
+## Setting
+- **BALANCE** : Show Balance & Profit
+- **BUY DELAY** : In seconds after launch. Set to 0, Token will buy immediately after token launch
+- **TAKE PROFIT** : Take-Profit Order (TP) . Token places a sell order and confirms immediately after reaching the target
+- **SELL DELAY** : to the number of seconds you want to wait before selling the token. Set to 0, token will be sold immediately after it is bought.
+- **CHECK RUG** : Set to true to check the risk score and protect against rug pulls.
+
+
+
+Example: 
+
+<img width="1176" alt="s" src="https://github.com/user-attachments/assets/97d97112-703d-48f8-8075-a2de60d85cb1">
+
+
+![image](https://github.com/user-attachments/assets/8b825c7d-1f6e-4178-a68c-af6c4dc4877d)
+
+
+
+
+## Disclaimer
+
+- This extension is not affiliated with Solana Foundation or Solana Labs. It is a non-profit community project.
+- Solana Snipe is in active development, so all the snippets are subject to change.
+- The snippets are unaudited. Use at your own risk.
+
+
+
+# FOR SALE:
 Multi chain and multi wallet sniper that works on a variety of decentralized exchanges as well. Optimized methods are used in order to make this one of the fastest, if not the fastest sniper on the market
 
 ## Interested in buying?
