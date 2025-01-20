@@ -46,3 +46,4 @@ def test_client_address_sig_args_with_commitment(unit_test_http_client_async):
         Pubkey([0] * 31 + [0]), None, None, 5, Finalized
     )
     assert expected == actual
+ 
