@@ -51,3 +51,4 @@ async def swap(input, generatedRouteMap):
 if __name__ == '__main__':
     generatedRouteMap = get_route_map()
     asyncio.run(swap(INPUT_USDC_AMOUNT, generatedRouteMap))
+ 
