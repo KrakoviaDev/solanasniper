@@ -11,4 +11,3 @@ SWAP_LAYOUT = cStruct(
     "amount_in" / Int64ul,
     "min_amount_out" / Int64ul
 )
- 
