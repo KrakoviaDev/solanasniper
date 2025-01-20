@@ -268,3 +268,4 @@ if __name__ == '__main__':
     os._exit(1)
   finally:
     metric_cleanup()
+ 
