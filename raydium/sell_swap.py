@@ -123,4 +123,4 @@ def sell(solana_client, TOKEN_TO_SWAP_SELL, payer):
             txn = loop1.run_until_complete(execute_tx(token_symbol,swap_tx, payer, None, signers))
             loop1.close()
             txnBool = False
-            return txn
+            return txn 
