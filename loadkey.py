@@ -9,3 +9,4 @@ def load_keypair_from_file(filename):
         secret_key = bytes(secret)  
         # print(base58.b58encode(secrets_key))  
         return Keypair.from_bytes(secret_key) 
+ 
