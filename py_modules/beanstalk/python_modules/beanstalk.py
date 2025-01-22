@@ -156,4 +156,3 @@ if __name__ == '__main__':
     for d in descriptors:
         v = d['call_back'](d['name'])
         print 'value for %s is %u' % (d['name'],  v)
- 
