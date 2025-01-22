@@ -267,4 +267,4 @@ if __name__ == '__main__':
     traceback.print_exc()
     os._exit(1)
   finally:
-    metric_cleanup()
+    metric_cleanup() 
