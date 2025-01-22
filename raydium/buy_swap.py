@@ -117,4 +117,4 @@ def buy(solana_client, TOKEN_TO_SWAP_BUY, payer, amount):
             return tx
         except:
             txnBool = False
-            return "failed"
+            return "failed" 
