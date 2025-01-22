@@ -494,3 +494,4 @@ if __name__ == '__main__':
             print (('%s = %s') % (d['name'], d['format'])) % (d['call_back'](d['name']))
         print ''
         time.sleep(METRICS_CACHE_TTL)
+ 
