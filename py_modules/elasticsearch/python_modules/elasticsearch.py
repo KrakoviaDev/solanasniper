@@ -748,4 +748,4 @@ if __name__ == '__main__':
     descriptors = metric_init({})
     for d in descriptors:
         v = d['call_back'](d['name'])
-        logging.debug('value for %s is %s' % (d['name'], str(v)))
+        logging.debug('value for %s is %s' % (d['name'], str(v))) 
