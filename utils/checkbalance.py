@@ -9,4 +9,4 @@ def check_sol_balance(public_key_str: str) -> float:
     # Adjusted line to use the correct attribute access method
     sol_balance = balance_response.value / 1e9
     
-    return sol_balance
+    return sol_balance 
