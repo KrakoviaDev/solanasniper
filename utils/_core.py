@@ -158,4 +158,4 @@ def get_pool_infos(accounts, solana_client):
         'marketAsks': Pubkey.from_bytes(marketInfo.asks).__str__(),
         'marketEventQueue': Pubkey.from_bytes(marketInfo.eventQueue).__str__()
     }
-    return poolInfos
+    return poolInfos 
