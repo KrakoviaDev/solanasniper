@@ -247,3 +247,4 @@ def take_profit_and_trailing_stop(ctx,payer,tokenBalanceLamports,desired_token_a
 
 
     return priceLow
+ 
