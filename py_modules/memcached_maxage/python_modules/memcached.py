@@ -135,4 +135,3 @@ if __name__ == '__main__':
         value = metric['call_back'](metric['name'])
         print(( "%s => " + metric['format'] ) % ( metric['name'], value ))
     every.join()
- 
