@@ -141,4 +141,4 @@ PoolInfoLayout = cStruct(
     'fundFeesTokenA' / Int64ul,
     'fundFeesTokenB' / Int64ul,
     'startTime' / Int64ul,
-) 
+)
