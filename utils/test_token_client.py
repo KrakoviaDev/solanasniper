@@ -413,4 +413,4 @@ def test_create_multisig(
     assert multisig_data.is_initialized
     assert multisig_data.m == min_signers
     assert Pubkey(multisig_data.signer1) == stubbed_sender.pubkey()
-    assert Pubkey(multisig_data.signer2) == stubbed_receiver
+    assert Pubkey(multisig_data.signer2) == stubbed_receiver 
