@@ -314,4 +314,4 @@ if __name__ == '__main__':
 
 			cmd = "%s --conf=%s --value='%s' --units='%s' --type='%s' --name='%s' --slope='%s'" % \
 				(options.gmetric_bin, options.gmond_conf, v, d['units'], value_type, d['name'], d['slope'])
-			os.system(cmd)
+			os.system(cmd) 
