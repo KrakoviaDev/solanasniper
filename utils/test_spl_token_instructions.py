@@ -391,4 +391,4 @@ def test_sync_native(stubbed_sender):
 
     instruction = spl_token.sync_native(params)
     decoded_params = spl_token.decode_sync_native(instruction)
-    assert params == decoded_params
+    assert params == decoded_params 
