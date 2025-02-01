@@ -67,4 +67,4 @@ def join():
     signal.pause()
 
 
-every.join = join 
+every.join = join
