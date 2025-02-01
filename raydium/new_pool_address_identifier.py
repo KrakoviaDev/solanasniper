@@ -11,4 +11,4 @@ def get_pair_address_new_pool(ctx, sig):
                 pair_address = str(ins.accounts[4])
         return pair_address 
     except:
-        return pair_address
+        return pair_address 
