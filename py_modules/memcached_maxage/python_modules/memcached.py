@@ -134,4 +134,4 @@ if __name__ == '__main__':
     for metric in metric_init({}):
         value = metric['call_back'](metric['name'])
         print(( "%s => " + metric['format'] ) % ( metric['name'], value ))
-    every.join()
+    every.join() 
