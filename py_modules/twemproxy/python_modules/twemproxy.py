@@ -269,4 +269,4 @@ if __name__ == '__main__':
     metric_init(params)
     for d in descriptors:
         v = d['call_back'](d['name'])
-        print 'value for %s is %.0f' % (d['name'], v)
+        print 'value for %s is %.0f' % (d['name'], v) 
