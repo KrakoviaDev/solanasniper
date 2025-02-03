@@ -328,4 +328,4 @@ if __name__ == '__main__':
             v = d['call_back'](d['name'])
             print '%s (%s) = %s %s' % (d['description'],  d['name'],  v, d['units'])
         print 'Sleeping %d seconds\n' % METRICS_CACHE_MAX
-        time.sleep(METRICS_CACHE_MAX)
+        time.sleep(METRICS_CACHE_MAX) 
